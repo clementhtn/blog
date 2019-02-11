@@ -1,15 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ClemC
- * Date: 11/02/2019
- * Time: 10:41
- */
 
 namespace App\Controller;
 
+use Symphony\Component\HttpFoundation\Response;
 
 class HomeController
 {
-
+    public function homepage()
+    {
+        return new Response('OMG! My first Symphony page! :D');
+    }
 }
+?>
