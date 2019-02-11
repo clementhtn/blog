@@ -2,13 +2,13 @@
 
 namespace App\Controller;
 
-use Symphony\Component\HttpFoundation\Response;
+
+use Symfony\Component\HttpFoundation\Response;
 
 class HomeController
 {
     public function homepage()
     {
-        return new Response('OMG! My first Symphony page! :D');
+        return new Response("OMG this is my first page! :D");
     }
 }
-?>
